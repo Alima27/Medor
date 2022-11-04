@@ -1,0 +1,28 @@
+.slick-slide.slick-center.slick-cloned,
+.slick-slide.slick-cloned,
+.slick-slide.slick-active.slick-center.slick-current, 
+.slick-slide.slick-active, 
+.slick-slide {
+  border-color: #D4EBFF;
+  box-shadow: 0 0 26px  #D4EBFF;
+}
+.slick-prev {
+  top: 50%;
+  left: 20px;
+}
+.slick-next {
+  top: 50%;
+  right: 20px;
+  }
+
+.h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 161.3%;
+  color: #00B3C4;
+  text-align: center;
+  @media all and (max-width: 800px) {
+    font-size: 17px;
+  }
+}

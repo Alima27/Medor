@@ -1,0 +1,31 @@
+.social {
+    margin-top: 25%;
+
+    &__size {
+      border: none;
+      width: 27px;
+      height: 27px;
+      @media all and (max-width: 600px) {
+        width: 15px;
+        height: 15xp;
+      }
+    }
+    &__instagram {
+      background: url('~assets/images/instagram.svg') 100% 100% no-repeat;
+      background-size: contain;
+    }
+    &__telegram {
+      background: url('~assets/images/telegram.svg') 100% 100% no-repeat;
+      background-size: contain;
+
+    }
+    &__whatsapp {
+      background: url('~assets/images/whatsapp.svg') 100% 100% no-repeat;
+      background-size: contain;
+      margin: 0 21px;
+
+      @media all and (max-width: 600px) {
+        margin: 0 10px;
+      }
+    }
+  }

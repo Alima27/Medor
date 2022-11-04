@@ -1,0 +1,23 @@
+yarn run v1.22.11
+info Commands available from binary scripts: acorn, ansi-html, atob, autoprefixer, browserslist, css-blank-pseudo, css-has-pseudo, css-prefers-color-scheme, cssesc, errno, escodegen, esgenerate, eslint, eslint-config-prettier, esparse, esvalidate, flat, he, html-minifier, html-minifier-terser, is-docker, jiti, js-yaml, jsesc, json5, loose-envify, miller-rabin, mime, mkdirp, mustache, nanoid, node-gyp, node-sass, node-which, nopt, nuxt, nuxt-cli, nuxt-telemetry, opencollective, opener, parser, prettier, regexp-tree, regjsparser, rimraf, sass, sassgraph, semver, sha.js, sshpk-conv, sshpk-sign, sshpk-verify, svgo, terser, uglifyjs, uuid, webpack, webpack-bundle-analyzer
+info Project commands
+   - build
+      nuxt build
+   - dev
+      nuxt
+   - generate
+      nuxt generate
+   - lint
+      yarn lint:js
+   - lint:js
+      eslint --ext ".js,.vue" --ignore-path .gitignore .
+   - start
+      nuxt start
+error No command specified.
+Done in 0.07s.
+yarn run v1.22.11
+$ nuxt start
+ℹ Listening on: http://23.111.202.33:80/
+yarn run v1.22.11
+$ nuxt start
+ℹ Listening on: http://23.111.202.33:80/

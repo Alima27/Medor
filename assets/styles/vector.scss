@@ -1,0 +1,22 @@
+.vector {
+  height: 18px;
+  width: auto;
+}
+.vector-img {
+  background: url('~assets/images/Vector.svg') 100% 100% no-repeat;
+  background-size: contain;
+  height: 17px;
+  margin-right: 5px;
+  width: 6px;
+}
+.vector-text {
+  color: #00B3C4;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 26px;
+}
+.vector-text:hover {
+  text-decoration: none;
+}

@@ -1,0 +1,28 @@
+@import '~assets/styles/button';
+@import '@/assets/styles/fonts';
+@import '~assets/styles/reset';
+@import '~assets/styles/social';
+@import '~/assets/styles/vector';
+@import '~assets/styles/variables';
+
+html,
+body,
+#__nuxt,
+#__layout
+ {
+	height: 100%;
+}
+
+body {
+	font-family: 'Geometria', sans-serif;
+}
+
+.wrapper {
+	padding-top: 127px;
+	padding-left: 50px;
+	@media all and (max-width:800px) {
+		padding-top: 32px;
+		
+	}
+}
+

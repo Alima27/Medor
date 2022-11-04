@@ -1,0 +1,14 @@
+.btn {
+  width: 179px;
+  height: 56.23px;
+  background: #00B3C4;
+  border-radius: 46.8586px;
+  color: white;
+  margin-top: 37px;
+  @media all and (max-width: 768px) {
+    width: 80px;
+    height: 25px;
+    font-size: 8px;
+    margin-top: 10px;
+  }
+}
